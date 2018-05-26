@@ -55,10 +55,10 @@ class CarController:
         time.sleep(0.5)
 
     def destroy():
-	    self.bw.stop()
+        self.bw.stop()
 
 if __name__ == '__main__':
-	cc = CarController()
+    cc = CarController()
     try:
         main()
     except KeyboardInterrupt:
