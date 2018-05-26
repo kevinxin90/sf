@@ -1,7 +1,6 @@
 from picar import front_wheels, back_wheels
 import picar
-from time import sleep
-import cv2
+import time
 
 picar.setup()
 
@@ -19,7 +18,7 @@ class CarController:
         """
         self.fw.turn_straight()
         time.sleep(0.5)
-        
+
     def moveForward(self, t=0):
         """
         move the car forward, then stop
