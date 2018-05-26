@@ -2,7 +2,6 @@ from picar import front_wheels, back_wheels
 import picar
 from time import sleep
 import cv2
-from pyzbar.pyzbar import decode
 
 picar.setup()
 
