@@ -13,6 +13,13 @@ class CarController:
         self.bw = back_wheels.Back_Wheels()
         self.speed = 30
 
+    def turnStraight(self, angle=0):
+        """
+        turn front wheel straight
+        """
+        self.fw.turn_straight()
+        time.sleep(0.5)
+        
     def moveForward(self, t=0):
         """
         move the car forward, then stop
